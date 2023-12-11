@@ -1,0 +1,36 @@
+Read Me
+
+
+Modules info
+This python scripts are used to analyse the network packets.
+
+
+How functions run
+Use pcap_analyser.py as the main script.
+It will produce all the output in the nice format.
+It also writes the text and json file from task 2 to 4.
+They will be written in the current working directory.
+
+
+System requirement
+pcap file with several data (tested with evidence-packet-analysis.pcap)
+The pcap should have TCP, UDP and IGMP protocols so that the floor division must not be zero.
+
+Referencing
+From stack overflow
+Author: Matt Miguel
+Edited Time: Jan 20 at 8:41
+Iterating data into PrettyTable (column alignment)
+https://stackoverflow.com/questions/65804221/how-to-create-a-table-with-different-number-of-rows-using-prettytable-module-pyt
+
+From stack overflow
+Author:Shankar Kumar
+Edited Time: Jul 26 '12 at 0:18
+Overwriting folder with shutil 
+https://stackoverflow.com/questions/11660605/how-to-overwrite-a-folder-if-it-already-exists-when-creating-it-with-makedirs
+
+From stack overflow
+Author: pufferfish
+Edited Time: Aug 13 '09 at 9:38
+Matplotlib save figure 
+https://stackoverflow.com/questions/1271023/resize-a-figure-automatically-in-matplotlib
